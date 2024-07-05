@@ -33,3 +33,10 @@ li a {
   text-align: center;
   color: white;
 }
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: #ffffff;
+  color: #000000;
+}
