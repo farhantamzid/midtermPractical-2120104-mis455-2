@@ -75,6 +75,8 @@ footer {
   box-shadow: 5px 4px 3px grey;
   text-align: center;
   justify-content: center;
+  font-family: "Oswald";
+  font-size: 20px;
 }
 
 .bannerDiv {
@@ -101,6 +103,24 @@ footer {
   grid-template-columns: auto auto;
   grid-template-rows: auto auto auto;
 }
+.product1img {
+  grid-column: 1/1;
+  grid-row: 1/1;
+}
+.product2img {
+  grid-column: 1/1;
+  grid-row: 2/2;
+}
+.product3img {
+  grid-column: 1/1;
+  grid-row: 3/3;
+}
+.product1img,
+.product2img,
+.product3img {
+  width: 550px; /* Adjust the width as needed */
+  height: auto; /* This will maintain the aspect ratio */
+}
 
 .btn1,
 .btn2,
@@ -126,4 +146,35 @@ footer {
 
 .btn3:hover {
   opacity: 0.6;
+}
+
+.gridContainer1p,
+.gridContainer2p,
+.gridContainer3p {
+  padding: 20px;
+  border: 2px solid lightcoral;
+  background-color: rgba(247, 149, 44, 0.576);
+  border-radius: 30px;
+  box-shadow: 5px 4px 3px grey;
+  font-size: 24px;
+  font-family: "Roboto Slab";
+}
+
+.gridContainer1p:hover {
+  background-color: beige;
+}
+
+.gridContainer2p:hover {
+  background-color: beige;
+}
+
+.gridContainer3p:hover {
+  background-color: beige;
+}
+
+.contact-form {
+  width: 100%; /* Adjust based on preference */
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
 }
