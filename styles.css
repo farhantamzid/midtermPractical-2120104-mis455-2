@@ -25,3 +25,11 @@ li a {
   font-family: "Oswald", sans-serif;
   font-size: large;
 }
+
+.header {
+  padding: 60px;
+  font-size: 30px;
+  background: rgb(255, 102, 0);
+  text-align: center;
+  color: white;
+}
